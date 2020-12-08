@@ -32,6 +32,10 @@ function jsToXmlFile(filename, obj, cb) {
 }
 
 router.get('/', function(req, res) {
+    res.render('index');
+});
+
+router.get('/get/html', function(req, res) {
 
     res.render('index');
 
