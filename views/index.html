@@ -12,7 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/PaddysCafe.css" rel="stylesheet">
+    <link href="css/Man'sCafe.css" rel="stylesheet">
 
 </head>
 
@@ -51,18 +51,18 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1 class="mt-5">Welcome to Paddy's Cafe</h1>
-                <p class="lead">Select your entrees from the menu below</p>
+                <h1 class="mt-5">Welcome to Man's Cafe</h1>
+                <p class="lead">Select your drink from the menu below</p>
             </div>
             <div id="results" class="col-lg-8 order-2 mb-5"></div>
             <div class="col-lg-4 order-1">
                 <form enctype="application/json" action="/post/json" method="post">
                     <div class="form-group">
                         <select class="form-control" name="sec_n">
-                            <option value="0">Side Dishes</option>
-                            <option value="1">Breakfast</option>
-                            <option value="2">Lunch</option>
-                            <option value="3">Dinner</option>
+                            <option value="0">Coffee</option>
+                            <option value="1">Dessert</option>
+                            <option value="2">Juice</option>
+                            <option value="3">Bakery</option>
                         </select>
                         <input class="form-control mt-3" type="text" name="item" placeholder="Item">
                         <input class="form-control mt-3" type="text" name="price" placeholder="Price">
